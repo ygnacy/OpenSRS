@@ -11,8 +11,10 @@ class OpenSRSTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->_user       = "enoisecom";
-        $this->_key        = "0d333d45db07fd7cf396ed262b51427a15fa0b88dc444f318467a8526a49cb0a6a5effa92c9323544f70cedd86cbd9c0fa71671f4ba6f2a9";
+        $config = parse_ini_file(dirname(__FILE__)."/tests.ini");
+
+        $this->_user       = $config["user"];
+        $this->_key        = $config["test_key"];
         $this->_cache_dir  = null;
         $this->_cache_time = null;
 
