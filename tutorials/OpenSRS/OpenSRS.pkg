@@ -1,0 +1,29 @@
+<refentry id="{@id}">
+    <refnamediv>
+        <refname>OpenSRS PHP Client Library Documentation</refname>
+        <refpurpose>
+            This manual consists primarily of API documentation but also includes examples,
+            tutorials, an overview of how the library works, installation and frequently
+            questions.
+        </refpurpose>
+    </refnamediv>
+
+    <refsynopsisdiv>
+        <author>
+            Lupo Montero [e-noise.com]
+            <authorblurb>
+            {@link mailto:lupo@e-noise.com Lupo Montero}
+            </authorblurb>
+        </author>
+    </refsynopsisdiv>
+
+    {@toc}
+
+    <refsect1 id="{@id intro}">
+        <title>Getting Started</title>
+
+        <para>
+            This will be the User Guide for the OpenSRS PHP Client Library.
+        </para>
+
+</refentry>
